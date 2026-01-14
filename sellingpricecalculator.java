@@ -9,7 +9,7 @@ public class sellingpricecalculator
         d= discounted selling price*/
         double a,b,c,d;
         try (Scanner read = new Scanner(System.in)) {
-            while(1>0)
+            while(true)
             {
                 System.out.println("HELLO");
                 System.out.println("WELCOME TO SELLING PRICE CALCULATOR");
@@ -47,4 +47,5 @@ public class sellingpricecalculator
             }
         }
     }
+
 }
